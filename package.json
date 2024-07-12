@@ -1,0 +1,15 @@
+{
+  "name": "options6-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -x node index.js || touch index.js"
+
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "node-http-proxy": "^0.2.4",
+    "nodemon": "^2.0.7"
+  }
+}
